@@ -74,6 +74,7 @@ namespace Mile.JWT.Server
             services.AddScoped<IJwtService, JwtService>();
             services.AddScoped<ITryDelegateService, TryDelegateService>();
             services.AddScoped<IAsParallelLinQService, AsParallelLinQService>();
+            services.AddScoped<IAggregateLinQService, AggregateLinQService>();
 
         }
 

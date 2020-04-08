@@ -13,9 +13,12 @@ namespace JWT.Server.Controllers
     public class AsParallelLinQController : ControllerBase
     {
         private readonly IAsParallelLinQService _asParallelLinQService;
-        public AsParallelLinQController(IAsParallelLinQService asParallelLinQService)
+        private readonly IAggregateLinQService _aggregateLinQService;
+
+        public AsParallelLinQController(IAsParallelLinQService asParallelLinQService, IAggregateLinQService aggregateLinQService)
         {
             _asParallelLinQService = asParallelLinQService;
+            _aggregateLinQService = aggregateLinQService;
         }
 
         [HttpGet]
@@ -44,6 +47,13 @@ namespace JWT.Server.Controllers
         public ActionResult ThreadDefault()
         {
             return StatusCode(StatusCodes.Status200OK, _asParallelLinQService.ThreadDefault());
+        }
+
+        [HttpGet]
+        [Route("Aggregate")]
+        public ActionResult Aggregate()
+        {
+            return StatusCode(StatusCodes.Status200OK, _aggregateLinQService.AggregateSum());
         }
     }
 }
