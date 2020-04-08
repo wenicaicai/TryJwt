@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+a8VcxuY4a5C7apnk7Knr6sbFs458dwP0uJ/RltcfcEv+vElZEUDdGfGoKIXNet8h4y+i1DoLumn9uQnDx/47g==",
+  "dgSpecHash": "bKR/xy0ddrufc2sfdBXyiqHDfIsMkhWxCtwi9wniKAx0UjWuwXNST7LMB8olcL/syjHGvIg6gvwAYPlccRuWyA==",
   "success": true,
-  "projectFilePath": "G:\\Mile\\Mile.JWT.Server\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj",
+  "projectFilePath": "G:\\Mile\\TryJwt\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnet.webapi.core\\4.0.20710\\microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",

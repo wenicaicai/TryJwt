@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using JWT.Server.Models;
 using JWT.Server.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;

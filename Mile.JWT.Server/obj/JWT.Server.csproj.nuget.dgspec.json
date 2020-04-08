@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mile\\Mile.JWT.Server\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj": {}
+    "G:\\Mile\\TryJwt\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj": {}
   },
   "projects": {
-    "G:\\Mile\\Mile.JWT.Server\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj": {
+    "G:\\Mile\\TryJwt\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mile\\Mile.JWT.Server\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj",
+        "projectUniqueName": "G:\\Mile\\TryJwt\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj",
         "projectName": "JWT.Server",
-        "projectPath": "G:\\Mile\\Mile.JWT.Server\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj",
+        "projectPath": "G:\\Mile\\TryJwt\\TryJwt\\Mile.JWT.Server\\JWT.Server.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\Mile\\Mile.JWT.Server\\TryJwt\\Mile.JWT.Server\\obj\\",
+        "outputPath": "G:\\Mile\\TryJwt\\TryJwt\\Mile.JWT.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
